@@ -8,21 +8,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Service" />
-        <module name="renren-fast" />
         <module name="Service-API" />
+        <module name="Renren-fast" />
         <module name="Gateway" />
         <module name="Common" />
         <module name="Third" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Renren-fast" target="1.6" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Renren-fast" options="-parameters" />
-      <module name="renren-fast" options="-parameters" />
+      <module name="Renren-fast" options="" />
     </option>
   </component>
 </project>
